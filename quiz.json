@@ -1,0 +1,59 @@
+[
+  {
+    "category_id": 0,
+    "question_text": "What is this code an example of?",
+    "code_block": "let val = (Double)6\n",
+    "code_type": "swift",
+    "answers": [
+      { "answer_text": "a syntax issue", "is_true": true },
+      { "answer_text": "typecasting", "is_true": false },
+      { "answer_text": "assignment", "is_true": false },
+      { "answer_text": "initialization", "is_true": false }
+    ]
+  },
+  {
+    "category_id": 0,
+    "question_text": "What is the error in this code?",
+    "code_block": "let x = 5\nguard x == 5 { return }\n",
+    "code_type": "swift",
+    "answers": [
+      { "answer_text": "The guard is missing the else.", "is_true": true },
+      { "answer_text": "Nothing is wrong.", "is_true": false },
+      { "answer_text": "The guard is missing a then.", "is_true": false },
+      { "answer_text": "The comparison is wrong.", "is_true": false }
+    ]
+  },
+  {
+    "category_id": 0,
+    "question_text": "What is the raw/underlying type of this enum?",
+    "code_block": "enum Direction {\n  case north, south, east, west\n}\n",
+    "code_type": "swift",
+    "answers": [
+      { "answer_text": "There is none.", "is_true": true },
+      { "answer_text": "String", "is_true": false },
+      { "answer_text": "Any", "is_true": false },
+      { "answer_text": "Int", "is_true": false }
+    ]
+  },
+  {
+    "category_id": 0,
+    "question_text": "Why is dispatchGroup used in certain situations?",
+    "code_block": "",
+    "code_type": "",
+    "answers": [
+      {
+        "answer_text": "It allows multiple synchronous or asynchronous operations to run on different queues.",
+        "is_true": false
+      },
+      {
+        "answer_text": "It allows track and control execution of multiple operations together.",
+        "is_true": false
+      },
+      {
+        "answer_text": "It allows operations to wait for each other as desired.",
+        "is_true": false
+      },
+      { "answer_text": "all of these answers.", "is_true": true }
+    ]
+  }
+]
