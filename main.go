@@ -11,7 +11,7 @@ import (
 func main() {
 	fileName := os.Args[1]
 	if fileName == "" {
-		panic("Enter file name")
+		panic("enter file name")
 	}
 
 	lines, err := readLines(fileName)
